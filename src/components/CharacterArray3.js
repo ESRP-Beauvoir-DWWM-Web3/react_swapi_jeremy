@@ -56,9 +56,9 @@ const CharacterArray = () => {
                     <div className="flex justify-center">
                         <nav aria-label="Page navigation example">
                             <ul className="flex list-style-none">
-                            <li className="page-item disabled"><a
-                                className="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-white pointer-events-none focus:shadow-none"
-                                href="/list/2" tabIndex="-1" aria-disabled="true">Precedent</a></li>
+                            <li className="page-item"><a
+                                className="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-white hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
+                                href="/list/2">Precedent</a></li>
                             <li className="page-item"><a
                                 className="page-link relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-white hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
                                 href="/list/1">1</a></li>
