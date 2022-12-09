@@ -10,6 +10,7 @@ import PlanetsArray from './components/PlanetsArray';
 import ShipsArray from './components/ShipsArray';
 import MoviesArray from './components/MoviesArray';
 import SpeciesArray from './components/SpeciesArray';
+import Error404 from './components/Error404';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/ships" element={<ShipsArray/>} />
           <Route path="/movies" element={<MoviesArray/>} />
           <Route path="/species" element={<SpeciesArray/>} />
+          <Route path="*" element={<Error404/>} />
         </Routes>
       </BrowserRouter>
   );
